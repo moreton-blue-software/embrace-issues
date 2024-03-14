@@ -11,8 +11,8 @@ You can [file a new issue](https://github.com/moreton-blue-software/embrace-issu
 
 ## High-priority issues
 
-- [Blocker](https://github.com/moreton-blue-software/embrace-issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22P%3A+blocker%22)
-- [Critical](https://github.com/moreton-blue-software/embrace-issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22P%3A+critical%22)
+- [Blocker](https://github.com/moreton-blue-software/embrace-issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22blocker%22)
+- [Critical](https://github.com/moreton-blue-software/embrace-issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22critical%22)
 
 ## GitHub help
 
