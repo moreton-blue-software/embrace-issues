@@ -28,7 +28,7 @@ body:
     attributes:
       value: |
         ## 2. Objectives & Business Requirements
-  - type: input
+  - type: textarea
     id: 2-goal    
     attributes:
       label: Goal
@@ -38,7 +38,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 2-functional    
     attributes:
       label: Functional
@@ -51,7 +51,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 2-non-functional    
     attributes:
       label: Non-functional
@@ -60,7 +60,7 @@ body:
         1.
         ...
       render: bash
-  - type: input
+  - type: textarea
     id: 2-dependencies    
     attributes:
       label: Dependencies
@@ -70,7 +70,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 2-constraints    
     attributes:
       label: Constraints
@@ -80,7 +80,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 2-success-metrics    
     attributes:
       label: Success Metrics
@@ -95,7 +95,7 @@ body:
     attributes:
       value: |
         ## 3. Development Scope of Work
-  - type: input
+  - type: textarea
     id: 3-tasks
     attributes:
       label: Tasks
@@ -112,7 +112,7 @@ body:
       value: |
         ## 4. Documentation
         > Notes: Basic happy path testing to access developed features
-  - type: input
+  - type: textarea
     id: 4-user-guide
     attributes:
       label: User Guide
@@ -123,7 +123,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 4-technical-guide
     attributes:
       label: Technical Guide
@@ -140,7 +140,7 @@ body:
     attributes:
       value: |
         ## 5. (Optional) Design and Implementation
-  - type: input
+  - type: textarea
     id: 5-design-summary
     attributes:
       label: Design Summary
@@ -149,7 +149,7 @@ body:
         - Can be as simple as linking Figma Design if applicable or if N/A this can be blank
         ...
       render: bash
-  - type: input
+  - type: textarea
     id: 5-ui-ux
     attributes:
       label: UI/UX
@@ -158,7 +158,7 @@ body:
         - Can be as simple as linking Figma Design if applicable or if N/A this can be blank
         ...
       render: bash
-  - type: input
+  - type: textarea
     id: 5-data-model
     attributes:
       label: Data Model
@@ -172,7 +172,7 @@ body:
     attributes:
       value: |
         ## 6. Testing
-  - type: input
+  - type: textarea
     id: 6-strategy
     attributes:
       label: Strategy
@@ -182,7 +182,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 6-key-test-cases
     attributes:
       label: Key Test Cases
@@ -192,7 +192,7 @@ body:
       render: bash
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: 6-acceptance-criteria
     attributes:
       label: Acceptance Criteria
